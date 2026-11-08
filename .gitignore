@@ -1,0 +1,31 @@
+# ===== 课程仓库 .gitignore =====
+# 仓库名：computer-network-labs（public）
+# 结构：lab2/、lab3/…… 每次实验一个子目录
+
+# ---- 绝不能进仓库的大文件 ----
+# 目录里放了教材 PDF（约 190 MB），一旦提交会永久撑爆仓库历史。
+*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 抓包文件 ----
+# 作业要求 pcapng 随报告提交（放 zip 上 FTP），不进仓库。
+# 若想让仓库里也留证据，把下一行注释掉即可。
+*.pcapng
+*.pcap
+
+# ---- 最终提交物 ----
+# 学号姓名.zip 这类打包产物：二进制、内容重复，不提交。
+*.zip
+
+# ---- 编辑器 / 系统垃圾 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*
