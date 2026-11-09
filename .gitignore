@@ -29,4 +29,7 @@ venv/
 Thumbs.db
 desktop.ini
 ~$*
+
+# ---- 本地产出 / 工作草稿 ----
+out.bin
 lab2/notes/
